@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surya-Portfolio</title>
+    <!-- Link for favicon -->
+    <link rel="icon" href="/logo.png" sizes="16x16">
+    <!-- Link for Font awesome -->
+    <script src="https://kit.fontawesome.com/2d98f6439c.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- External Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <nav class="sticky-top navigation navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="main-title navbar-brand" href="index.html">Surya - Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certification">Certification</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social">Lets Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <span id="top"></span>
+    <div class="container-fluid part-1">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12" data-aos="fade-down">
+                <img  class="d-lg-none d-xl-none img-fluid image-1" src="profile-pic.jpg" alt="Profile picture">
+                <img  class="d-lg-block d-sm-none d-none d-xs-none d-md-none img-fluid image-1" src="pro-pic.jpg" alt="Profile picture">
+        </div>
+        <div class="col-lg-6 col-sm-12 name" data-aos="fade-up">
+          <h1 class="display-5"><b>HI THERE...!</b></h1>
+          <h1 class="display-2">
+            <u><b>THIS IS SURYA<span class="animation-blink">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></u>
+          </h1>
+          <h2 class="display-5">BUDDING WEB DEVELOPER</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid part-2">
+      <div class="row">
+        <div class="col-sm-12 flex">
+          <a href="#social"> <button class="know-more" id="about" data-aos="flip-up">KNOW MORE	&#8594</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-md">
+      <div class="row">
+        <h4 class="mb-4 about-heading" data-aos="fade-right">About me</h4>
+        <div class="col-12">
+          <p class="about-text" data-aos="zoom-in-up">A Self-driven,passionate Front End Web Developer Fresher with a curious mind who loves solving a complex and challenging real-world problems. I've completed HTML and CSS for now. I am presently learning Javascript and I'll be learning React in the upcoming days. <br> <br>Web Development is my areas of my interest and I've been working to enhance my skills. Also I love to build and design Experiences which makes people's life easier. <br><br>Looking for an oppurtunity to work in a challenging position combining my skills, which provides professional development, interesting experiences and personal growth. Scroll down to know more about me...! <br></p>
+          </div>
+          <div class="container-sm">
+            <div class="row">
+            <div class="mb-2 col-md-6 col-sm-12" data-aos="fade-down-right">
+            <i class="fas fa-angle-double-right"></i>
+          <span class="details"><b>Birthday :</b> 20 June 1998</span>
+          </div>
+          <div class="mb-2 col-md-6 col-sm-12" data-aos="fade-up-left">
+            <i class="fas fa-angle-double-right"></i>
+          <span class="details"><b>City :</b> Kumbakonam, TN, India</span>
+          </div>
+          <div class="mb-2 col-md-6 col-sm-12" data-aos="fade-down-right">
+            <i class="fas fa-angle-double-right"></i>
+          <span class="details"><b>Phone :</b> +91 824-809-4176</span>
+          </div>
+          <div class="mb-2 col-md-6 col-sm-12" data-aos="fade-up-left">
+            <i class="fas fa-angle-double-right"></i>
+          <span class="details"><b>Email :</b> suryad20698@gmail.com</span>
+          </div>
+          </div>
+          </div>
+          <div class="col-12">
+          <label class="mb-2 mt-4" for="confidence" data-aos="fade-right">&#128170; Confidence 95%</label>
+          <div class="progress mb-3" data-aos="fade-right">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="confidence" role="progressbar" style="width: 95%"></div>
+          </div>
+          <label class="mb-2" for="focus" data-aos="fade-left">&#127919; Focus 85%</label>
+          <div class="progress mb-3" data-aos="fade-left">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="focus" role="progressbar" style="width: 85%"></div>
+          </div>
+          <label class="mb-2" for="stress" data-aos="fade-right">&#9749; Stress Management 70%</label>
+          <div class="progress mb-3" data-aos="fade-right">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="stress" role="progressbar" style="width: 70%"></div>
+          </div>
+          <label class="mb-2" for="time-management" data-aos="fade-left">&#9203; Time Management 90%</label>
+          <div class="progress mb-3" data-aos="fade-left">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="time-management" role="progressbar" style="width: 90%"></div>
+          </div>
+          <label class="mb-2" for="decision" data-aos="fade-right">&#127993; Decision Making 80%</label>
+          <div class="progress mb-3" data-aos="fade-right">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="decision" role="progressbar" style="width: 80%"></div>
+          </div>
+          <label class="mb-2" for="problem" data-aos="fade-left">&#128161; Problem Solving 85%<span  id="education"></span></label>
+          <div class="progress mb-3" data-aos="fade-left">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="problem" role="progressbar" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+    <div class="container-md">
+      <h4 id="side-heading" data-aos="fade-right">Education</h4>
+      <div class="row">
+        <div class="school col-12 col-md-6" data-aos="fade-down-right">
+          <div class="card">
+            <div class="card-header education-header">
+              <p>Sathyabama Insitute of Science and Technology, Chennai</p>
+            </div>
+            <div class="card-body">
+             <p><b>Degree: </b>Bachelor of Technology in Chemical Engineering <br><b>Passed Out Year: </b> 2019
+            <br><b>CGPA: </b>6.5/10</p>
+          </div>
+          </div>   
+    </div>
+    <div class="school col-12 col-md-6" data-aos="fade-up-left">
+      <div class="card">
+        <div class="card-header education-header">
+          <p>Christ the king Matric Hr. Sec. School</p>
+        </div>
+        <div class="card-body">
+         <p><b>Level: </b>Class X and Class XII <br><b>Passed Out Year: </b>2013(X), 2015(XII)
+        <br><b>Percentage(X): </b>92.6% <br>
+      <b>Percentage(XII): </b>90% <span  id="certification"></span></p>
+      </div>
+      </div>     
+    </div>
+</div>
+</div>
+<div class="container-md">
+  <h4 id="side-heading" data-aos="fade-right">Certifications</h4>
+  <div class="row">
+    <div class="certificate col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+      <div class="card">
+          <img src='https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg' alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Programming with Javascript</h5>
+          <p class="card-text">
+            <b>Issued by: </b>Meta <br>
+            <b>Credential ID: </b>T4Z87YRMAX7K
+          </p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/T4Z87YRMAX7K?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"> <button class="credential">View Credential</button></a>
+        </div> 
+    </div>
+   </div>  <div class="certificate col-12 col-md-6 col-lg-4">
+    <div class="card" data-aos="zoom-in-up">
+        <img src='https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/b0/7d/50/b07d50ed-a3a1-7f17-d256-9a9dba74983e/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/1200x630wa.png' alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Javascript</h5>
+        <p class="card-text">
+          <b>Issued by: </b>SoloLearn <br>
+          <b>Credential ID: </b>CT-6AZV617V
+        </p>
+        <a href="https://www.sololearn.com/Certificate/CT-6AZV617V/png" target="_blank"> <button class="credential">View Credential</button></a>
+      </div> 
+  </div>
+ </div> 
+    <div class="certificate col-12 col-md-6 col-lg-4">
+      <div class="card" data-aos="zoom-in-up">
+        <div class="card-header">
+          <img src='https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg' alt="" class="card-img-top">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Introduction to Front-End Development</h5>
+          <p class="card-text">
+            <b>Issued by: </b>Meta <br>
+            <b>Credential ID: </b>8XLX4QZ39587
+          </p>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/8XLX4QZ39587" target="_blank"> <button class="credential">View Credential</button></a>
+        </div> 
+    </div>
+   </div> 
+   <div class="certificate col-12 col-md-6 col-lg-4">
+    <div class="card" data-aos="zoom-in-up">
+        <img src='https://npr.brightspotcdn.com/legacy/sites/wemu/files/202104/U-M-logo-preview.jpg' alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">HTML 5 by University of Michigan</h5>
+        <p class="card-text">
+          <b>Issued by: </b>University of Michigan <br>
+          <b>Credential ID: </b>JWJUXYMLCXV9
+        </p>
+        <a href="https://www.coursera.org/account/accomplishments/certificate/JWJUXYMLCXV9" target="_blank"> <button class="credential">View Credential</button></a>
+      </div> 
+  </div>
+ </div> 
+ <div class="certificate col-12 col-md-6 col-lg-4">
+  <div class="card" data-aos="zoom-in-up">
+      <img src='https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/b0/7d/50/b07d50ed-a3a1-7f17-d256-9a9dba74983e/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/1200x630wa.png' alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">HTML 5 by SoloLearn</h5>
+      <p class="card-text">
+        <b>Issued by: </b>SoloLearn <br>
+        <b>Credential ID: </b>CT-9G6JGOLI
+      </p>
+      <a href="https://www.sololearn.com/Certificate/1014-26372213/pdf/" target="_blank"> <button class="credential">View Credential</button></a>
+    </div> 
+</div>
+</div>  
+<div class="certificate col-12 col-md-6 col-lg-4">
+  <div class="card" data-aos="zoom-in-up">
+      <img src='https://cdn.careers.nutrition.tufts.edu/wp-content/uploads/sites/124/2021/08/dataquest-review-2-480x240.png?v=7993' alt="" class="img-fluid card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Intoduction to Python Programming</h5>
+      <p class="card-text">
+        <b>Issued by: </b>Dataquest <br>
+        <b>Credential ID: </b>45JOCRBWIAQI0T9ZZU1L
+      </p>
+      <a href="https://app.dataquest.io/view_cert/45JOCRBWIAQI0T9ZZU1L" target="_blank"> <button class="credential">View Credential</button></a>
+    </div> 
+</div>
+</div>  
+<div class="certificate col-12 col-md-6 col-lg-4">
+  <div class="card" data-aos="zoom-in-up">
+      <img src='https://logos-world.net/wp-content/uploads/2020/07/Accenture-Symbol-700x394.png' alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Developer virtual Internship Program</h5>
+      <p class="card-text">
+        <b>Issued by: </b>Accenture <br>
+        <b>Credential ID: </b>rJdW2WXAWRQM8sRj
+      </p>
+      <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_rJdW2WXAWRkQM8sRj_1662116316368_completion_certificate.pdf" target="_blank"> <button class="credential">View Credential <span id="projects" ></span></button></a>
+    </div> 
+</div>
+</div>
+</div>
+</div>
+<div class="container-md">
+<h4 class="project-heading" data-aos="fade-right">
+  Projects</h4>
+<div class="d-md-flex justify-content-center align-items-center">
+  <div class="row mb-5 mt-4 ms-4">
+    <p class="h5 information lead col-sm-12 col-lg-6" data-aos="fade-down-right">Visit my Github profile to view my Projects. <br>
+      click on the QR-Code to visit profile.</p>
+    <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-down-left"><a href="https://github.com/wolfofweb" target="_blank"><img src="github-qr.png" alt="" class="qr-image"><span  id="social"></span>  </a> 
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-md">
+  <h4 class="social-heading" data-aos="fade-right">
+    Lets Connect</h4>
+  <div class="d-md-flex justify-content-between">
+    <div class="row mt-4 ms-4">
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+        <h4 class="lead social-website-heading mb-4">LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/suryadharmakrishnan/" target="_blank"><img src="linkedin-qr.png" alt="" class="mb-4 qr-image">  </a> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+        <h4 class="lead social-website-heading mb-4">Instagram</h4>
+        <a href="https://www.instagram.com/wow_its_surya/" target="_blank"><img src="instagram-qr.png" alt="" class="mb-4 qr-image">  </a> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+        <h4 class="lead social-website-heading mb-4">Facebook</h4>
+        <a href="https://www.facebook.com/kingmaker.surya.50/" target="_blank"><img src="facebook-qr.png" alt="" class="mb-4 qr-image">  </a> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+        <h4 class="lead social-website-heading mb-4">Whatsapp</h4>
+        <a href="https://wa.me/qr/34RHABUTVWA7H1" target="_blank"><img src="whatsapp-qr.png" alt="" class="mb-4 qr-image">  </a> 
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="container-md" id="contact-form">
+    <h4 class="social-heading mb-4" data-aos="fade-right">
+      Send a Message</h4>
+    <form method="post" action="index.php">
+      <div class="row">
+        <div class="form-floating col-md-6 mb-3" data-aos="fade-right">
+          <input
+            type="name"
+            class="form-control"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            required
+          />
+          <label for="fname" id="fname-label" class="ps-4">First Name</label>
+        </div>
+        <div class="form-floating col-md-6 mb-3" data-aos="fade-left">
+          <input
+            type="name"
+            class="form-control"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            required
+          />
+          <label for="lname" id="lname-label" class="ps-4">Last Name</label>
+        </div>
+        <div class="row">
+          <span class="alert alert-danger" id="name-alert"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-floating mb-3" data-aos="fade-right">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Email ID"
+            oninvalid="emailAlert()"
+            required
+          />
+          <label for="email" id="email-label" class="ps-4">E Mail ID</label>
+        </div>
+        <div class="row">
+          <span class="alert alert-danger" id="email-alert"></span>
+        </div>
+      </div>
+      <div class="row">
+      <div class="form-floating" data-aos="fade-left">
+        <textarea class="form-control mb-3" placeholder="Leave a message here" name="comment" id="message-area" style="height: 100px" oninvalid="messageAlert()" required></textarea>
+        <label id="comments-label" class="ps-4" for="message-area">Your Message</label>
+      </div>
+      <div class="row">
+        <span class="alert alert-danger" id="message-alert"></span>
+      </div>
+      </div>
+      <div class="row">
+        <button type="submit" name="submit" class="topper" id="send-message" data-aos="flip-up">Send Message</button>
+      </div>
+      <div class="row  mt-4 mb-4" style="display:none;" id="submit-alert">
+    <span class="alert alert-success">Message has been Sent Successfully</span>
+      </div>
+    </form>
+  </div>
+<!-- PHP FORM SUBMISSION CODE -->
+<?php
+error_reporting(0);
+$servername='localhost';
+$username='root';
+$password='';
+$dbname='portfolio';
+// $servername='sql212.epizy.com';
+// $username='epiz_32938547';
+// $password='KT6wzEpKQi';
+// $dbname='epiz_32938547_portfolio';
+$conn=new mysqli($servername,$username,$password,$dbname);
+    //Get values into variables by their name
+    $firstName=$_POST['fname'];
+    $lastName=$_POST['lname'];
+    $email=$_POST['email'];
+    $comment=$_POST['comment'];
+    //Insert Values into MySQL 
+    $sql = "INSERT INTO messaages(firstName,lastName,email,comment)VALUES('$firstName','$lastName','$email','$comment')";
+//To check whether data is inserted properly or not
+if ($conn->query($sql) === TRUE) {
+  echo "";
+} 
+else {
+  echo "<p class='alert alert-danger mt-4'>" . "Error in sending message, Please contact via social Media" . "</p>";
+//close the connection after data entry
+$conn->close();
+}
+?>
+    <hr>
+    <footer class="container-md" data-aos="zoom-up">
+      <div class="container top mb-5">
+        <a href="#top">
+     <button class="topper" data-aos="flip-up">Go to Top &#8593;</button></a>
+      </div>
+      <div class="row mb-3">
+        <div class="col-lg-6 col-md-12">
+          <p>&nbsp;No Copyright Issue, Feel free to copy | If you need any with this, Ping me...!</p>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <a href="https://www.buymeacoffee.com/suryad2069h" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-1.svg" class="coffee" alt=""></a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <span class="col-sm-12 col-md-4">&nbsp;&#169; 2022 Made with &#10084; By Surya</span>
+    <a href="https://www.meity.gov.in/writereaddata/files/policy_on_adoption_of_oss.pdf" target="_blank" class="col-sm-12 col-md-4 privacy">&nbsp;Policy on Adoption</a>
+    <a href="terms.html" class="col-sm-12 col-md-4 terms" target="_blank">&nbsp;Terms and condtions</a>
+    </div>
+    </footer>
+    <!-- Bootstrap Javascript CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init()
+    AOS.init({
+      duration:550
+    })
+  </script>
+  </body>
+</html>
